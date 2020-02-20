@@ -48,15 +48,19 @@ let prod=undefined;
       phone : req.user.phone ,
       email : req.user.email,
       products:resu
+      
     }
-
+  console.log(data)
     res.render('profile',data)
 
   })
   
     
 })
-
+router.get("/calculatePremium",(req,res)=>
+{
+  res.render("calculate")
+})
 router.get("/apply", async (req,res)=>
 {
   res.render("apply")

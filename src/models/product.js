@@ -51,7 +51,7 @@ const productSchema = new mongoose.Schema(
         insurance_type :
         {
             type:String,
-            required:true,
+            required:false,
             trim:true
         },
         owner:
