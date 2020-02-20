@@ -1,0 +1,99 @@
+@font-face{
+    font-family: Poppins;
+    src:url(../fonts/Poppins-Regular.ttf);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.product{
+    background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1));
+}
+
+.banner
+{
+    position: relative;
+    width: 130%;
+    height: 100vh;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section:nth-child(2n+1)
+{
+    position: relative;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+section:nth-child(2n+2)
+{
+    position: relative;
+    height: auto;
+        display: flex;
+    
+}
+
+
+section .imgbox
+{
+    position: sticky;
+    top: 0;
+    min-width: 60%;
+    height: 100vh;
+
+}
+
+
+section .imgbox img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 600px;
+}
+
+section:nth-child(2n+1) .content
+{
+    padding: 100px 0 100px 100px;
+    text-align: left;
+}
+
+
+section:nth-child(2n+2) .content
+{
+    padding: 100px 100px 100px 0;
+    text-align: left;
+}
+
+section .content h1
+{
+    margin: 0 0 20px;
+    font-size: 35px;
+    color:rgb(52, 145, 221);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+
+section .content p
+{
+    color:white;
+    font-size: 18px;
+
+}
+li{
+    font-size: 20px;
+    color:white;
+    
+}

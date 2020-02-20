@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: PopLight;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: PopRegular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PopBold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+body {
+  font-family: PopLight;
+  text-align: center;
+}
+
+.home {
+  color: white;
+  background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1));
+}
+#choice{
+  margin: auto;
+  width: 66%;
+}
+#choice1{
+  margin: auto;
+  width: 70%;
+}
+
+
+.home1 {
+  width: 90%;
+  margin: auto;
+}
+
+#main_nav{
+  background-color: rgba(65, 76, 117, 0.7);
+  margin: 0px -67px;
+  padding: 0px 67px;
+}
+
+#logo1{
+  display: flex;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.page {
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.photo1 {
+  width: 65%;
+  margin: 10px;
+}
+
+.photo2 {
+  width: 70%;
+  margin: 10px;
+}
+.photo3 {
+  width: 70%;
+  margin: 10px;
+}
+
+.whyuspara {
+  text-align: center;
+  margin: 10px;
+}
+
+a{
+  color: white;
+}

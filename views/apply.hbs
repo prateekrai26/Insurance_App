@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ASAP Life Insurance</title>
+    <link rel="stylesheet" href="../public/css/signup.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="home1">
+        <header>
+          <div id="main_nav">
+            <nav>
+              <div id="logo1">
+                <img src="../public/img/logo.png" alt="" height="50px" />
+                <h3 class="logo">&nbspLife Insurance</h3>
+              </div>
+              <h4>Products</h4>
+              <h4>About Us</h4>
+              <h4>Login/Signup</h4>
+              <img src="../public/img/icons8-menu.svg" alt="burger" />
+            </nav>
+          </div>
+          <br />
+          <main>
+            <br />
+            <h1>Apply for Insurance</h1>
+            <br>
+            <br />
+            <form class="login" action="/apply" method="POST">
+              Name: <br />
+              <input type="text" placeholder="" name="name" />
+              <br />
+              BirthDay:<br />
+              <input type="date" placeholder="" name="bday" />
+              <br />
+              Sex:<br />
+              <input type="text" placeholder="" name="sex" />
+              <br />
+              Address:<br />
+              <input type="text" placeholder="" name="address" />
+              <br />
+              Phone no:<br />
+              <input type="text" placeholder="" name="phone" />
+              <br />
+              Email:<br />
+              <input type="text" placeholder="" name="email" />
+              <br />
+              Aadhaar no:<br />
+              <input type="text" placeholder="" name="adhar" />
+              <br />
+               Insurance Type:<br />
+               <label for="Home">Home</label> 
+               <input type="radio" name="insurance_type" value="Home">
+                
+                   <input type="radio" name="insurance_type" value="Family">
+                <label for="family">Family</label> 
+                <input type="radio" name="insurance_type" value="Car">
+                <label for="Car">Car</label> 
+              <br />
+                <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <button>Apply</button>
+            </form>
+            <br>
+            <br />
+            <br />
+          </main>
+        </header>
+      </div>
+    </div>
+  </body>
+</html>
